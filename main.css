@@ -1,17 +1,23 @@
 #container{
     display: grid;
-    gap: 2px;
-    grid-template-columns: repeat(4, 100px);
-    
+    gap: 2px; 
+    max-width: 90%;
+    max-height: 90%;  
+    margin: 12px 12px 12px 12px;
 }
 
 body{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .my-class {
-    transition: background-color 0.3s ease;
+    transition: background-color 1s ease;
+}
+
+button{
+    margin: 12px 12px 12px 12px;
 }
